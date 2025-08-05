@@ -1,0 +1,15 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    gap: 35px; /* Space between items */
+}
+.hero img {
+    margin-top: 150px;
+}
+.hero h1 {
+    text-align: center; /* Center the text */
+    width: 70%;
+    font-size: 90px; /* Set font size */
+    font-weight: 600;
+}

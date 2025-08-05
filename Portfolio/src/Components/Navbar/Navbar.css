@@ -1,0 +1,26 @@
+/* Main navbar container - this styles the entire navigation bar */
+.navbar{
+    display: flex;  /* Makes items arrange horizontally in a row */
+    align-items: center;    /* Centers items vertically in the navbar */
+    justify-content: space-between; /* Pushes items to opposite ends (logo left, menu right) */
+    padding: 10px 170px;     /* Adds space inside: 10px top/bottom, 170px left/right */
+}
+/* Navigation menu styling - this styles the list of menu items */
+.nav-menu {
+    display: flex; /* Arranges menu items horizontally */
+    align-items: center; /* Centers menu items vertically */
+    list-style: none; /* Removes bullet points from list items */
+    gap: 60px; /* Adds 60px space between each menu item */
+    font-size: 20px; /* Sets the text size for menu links */
+}
+.nav-connect {
+    padding: 20px 40px; /* Adds space inside the connect button */
+    border-radius: 50px; /* Makes the button edges rounded */
+    background: linear-gradient(267deg, #FA7C25 0.36%, #B923E1 102.06%); /* Gradient background from orange to purple */
+    font-size: 22px;
+    cursor: pointer; /* Changes cursor to pointer when hovering over the button */
+    transition: 0.5s; /* Smooth transition for hover effects */
+}
+.nav-connect:hover{
+    transform: scale(1.05);
+}
