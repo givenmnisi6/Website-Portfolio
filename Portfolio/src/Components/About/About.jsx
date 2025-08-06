@@ -15,7 +15,7 @@ const About = () => {
                 <img src={profileImg} alt="" />
             </div>
             <div className="about-right">
-                <div className="about-para">
+                <div className="about-paragraph">
                     <p>I am an enthusiastic professional with experience in programming languages like Python, C, C++, C#, and Java. I have demonstrated leadership as a student assistant at North-West University, where I led practical sessions, mentored undergraduates, and assessed coursework for students.</p>
                     <p>My certifications include Power BI, Cybersecurity, and Robotic Process Automation, and I am a Golden Key International Honour Society member.</p>
                 </div>
@@ -27,7 +27,7 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <div className="about-ahievements">
+        <div className="about-achievements">
             <div className="about-achievement">
                 <h1>10+</h1>
                 <p>Years of experience</p>
@@ -35,6 +35,11 @@ const About = () => {
             <hr />
             <div className="about-achievement">
                 <h1>90+</h1>
+                <p>Projects completed</p>
+            </div>
+            <hr />
+                <div className="about-achievement">
+                <h1>50+</h1>
                 <p>Projects completed</p>
             </div>
         </div>
