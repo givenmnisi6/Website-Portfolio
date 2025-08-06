@@ -1,0 +1,58 @@
+.hero{
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    gap: 35px; /* Space between items */
+}
+.hero img {
+    margin-top: 150px;
+}
+.hero h1 {
+    text-align: center; /* Center the text */
+    width: 70%;
+    font-size: 90px; /* Set font size */
+    font-weight: 600;
+}
+.hero h1 span {
+    background: linear-gradient(267deg, #DF8908 0.10%, #B415FF 100%);
+    background-clip: text; /* Clip background to text */
+    -webkit-background-clip: text; /* For Safari */
+    -webkit-text-fill-color: transparent;
+}
+.hero p {
+    text-align: center; /* Center the paragraph text */
+    width: 50%; /* Set width for the paragraph */
+    font-size: 24px; /* Set font size */
+    line-height: 40px; /* Set line height for spacing */
+
+}
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Space between items */
+    font-size: 24px; /* Set font size */
+    font-weight: 500; /* Set font weight */
+    margin-bottom: 50px; /* Space from the bottom */
+}
+.hero-connect {
+    padding: 25px 45px; /* Space inside the button */
+    border-radius: 50px; /* Rounded edges */
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%); /* Gradient background */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.5s; /* Smooth transition for hover effect */
+}
+.hero-connect:hover {
+    transform: scale(1.05);
+}
+.hero-resume {
+    padding: 25px 75px; /* Space inside the button */
+    border-radius: 50px; /* Rounded edges */
+    /*background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%); /* Gradient background */
+    cursor: pointer; /* Pointer cursor on hover */
+    border: 2px solid #FFF; /* Solid border */
+    transition: transform 0.5s; /* Smooth transition for hover effect */
+}
+.hero-resume:hover {
+    transform: scale(1.05);
+    border-color: #B415FF; /* Change border color on hover */
+}
